@@ -6,6 +6,7 @@
   "dependencies": {
     "@libsql/client": "^0.15.15",
     "bcrypt": "^6.0.0",
+    "cookie": "^1.0.2",
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.44.7",
     "hono": "^4.10.5",
@@ -13,7 +14,9 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.10",
     "drizzle-kit": "^0.31.6",
     "tsx": "^4.20.6"
   }
